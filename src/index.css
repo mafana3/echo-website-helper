@@ -56,3 +56,15 @@
   @apply bg-white text-black font-semibold py-3 px-8 rounded-md border border-black hover:bg-gray-100 transition-colors;
 }
 
+/* Transport Modes hover animations */
+.transport-mode-section {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.transport-mode-section:hover {
+  @apply md:col-span-2;
+}
+
+.transport-mode-section:not(:hover) {
+  @apply md:col-span-1;
+}
