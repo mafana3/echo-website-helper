@@ -5,15 +5,15 @@ import { ArrowUpRight } from 'lucide-react';
 const TransportModes = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-4 bg-white">
-      <div className="relative">
+      <div className="relative h-full min-h-[320px]">
         <img 
-          src="/public/lovable-uploads/50e7d1a6-f372-4206-b14d-4a48be0bf536.png" 
+          src="/lovable-uploads/50e7d1a6-f372-4206-b14d-4a48be0bf536.png" 
           alt="Airplane and cargo ship" 
           className="w-full h-full object-cover"
         />
       </div>
       
-      <div className="bg-shipship-blue text-white p-6 flex flex-col justify-center">
+      <div className="bg-shipship-blue text-white p-8 flex flex-col justify-center">
         <div className="mb-4">
           <div className="w-8 h-8 rounded-full border border-white flex items-center justify-center mb-2">
             <span className="text-lg">⚓</span>
@@ -25,7 +25,7 @@ const TransportModes = () => {
         </p>
       </div>
       
-      <div className="bg-shipship-green text-white p-6 flex flex-col justify-between">
+      <div className="bg-shipship-green text-white p-8 flex flex-col justify-between">
         <div className="flex justify-between items-start">
           <h3 className="text-xl font-medium">Small business</h3>
           <ArrowUpRight size={24} />
@@ -42,11 +42,13 @@ const TransportModes = () => {
       </div>
       
       <div className="grid grid-rows-2">
-        <div className="bg-amber-200 p-6">
+        <div className="bg-amber-200 p-8">
           <h3 className="text-xl font-medium">Medium business</h3>
+          <p className="text-sm mt-2">Optimized solutions for growing companies</p>
         </div>
-        <div className="bg-shipship-yellow p-6">
+        <div className="bg-shipship-yellow p-8">
           <h3 className="text-xl font-medium">Large Enterprises</h3>
+          <p className="text-sm mt-2">Enterprise-level logistics management</p>
         </div>
       </div>
     </section>

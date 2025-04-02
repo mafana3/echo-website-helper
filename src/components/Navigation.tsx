@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <nav className="bg-white py-4 px-6 flex justify-between items-center">
+    <nav className="bg-white py-4 px-6 flex justify-between items-center shadow-sm">
       <div className="flex items-center">
         <Link to="/" className="mr-6">
           <div className="flex items-center">
-            <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
-              <span className="text-white text-xl">🚢</span>
+            <div className="w-10 h-10 bg-shipship-green rounded-full flex items-center justify-center">
+              <span className="text-white text-xl font-bold">SS</span>
             </div>
             <span className="ml-2 font-bold text-xl">Ship-ship</span>
           </div>
